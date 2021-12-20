@@ -1,0 +1,46 @@
+.movie-row {
+    overflow-x: hidden;
+    /* transition: all ease 0.5; */
+}
+
+.movie-poster {
+    padding: 0 0.2vw;
+    transform: scale(0.9);
+    overflow-y: visible;
+    display: inline-block;
+}
+
+.movie-poster img {
+    width: 150px;
+}
+
+.movie-poster:hover {
+    transform: scale(1);
+}
+
+.left, .right {
+    position: absolute;
+    width: 40px;
+    height: 225px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.movie-box:hover .left, .movie-box:hover .right {
+    opacity: 1;
+}

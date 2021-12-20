@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 50px;
+}
+
+.menu {
+    text-align: right;
+}
+
+.menu button{
+   padding: 5px 20px;
+    background-color:#e50914;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}

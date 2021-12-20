@@ -1,0 +1,66 @@
+.Home {
+    position: relative;
+}
+
+.main-text {
+    position: relative;
+    width: 100%;
+    padding: 75px 0;
+    max-width: 952px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.main-text h1 {
+    font-size: 3.125rem;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.main-text h2 {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.625rem;
+}
+
+.main-text h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.get-start-form {
+    margin: 0 auto;
+    max-width: 950px;
+    display: flex;
+    justify-content: center;
+}
+
+.get-start-form input {
+    min-width: 450px;
+    min-height: 60px;
+    padding: 0 1em;
+    border: solid 1px #8c8c8c
+}
+
+.get-start-form button {
+    position: relative;
+    min-height: 60px;
+    font-size: 1.625rem;
+    padding: 0 1em;
+    color: #fff;
+    border-left: 1px solid #333;
+    background-color: #e50914;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: 400;
+    border: 0;
+}

@@ -1,0 +1,26 @@
+:root  {
+    --bs-gradient: linear-gradient(to top,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%),radial-gradient(50% 100%,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%) !important;
+}
+
+.bg-img {
+    background-image: url(http://localhost:3000/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+.bg-gradient {
+    background-color: rgba(0,0,0,.5);
+    background-image: linear-gradient(to top,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%),radial-gradient(50% 100%,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%) !important;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}

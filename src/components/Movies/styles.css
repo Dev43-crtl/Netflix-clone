@@ -1,0 +1,48 @@
+.Movies {
+    background-color:#141414;
+}
+
+.header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background: transparent ;
+    margin-bottom: 5px;
+    transition: all ease 0.5s;
+}
+
+.header.black {
+    background-color:#141414;
+}
+
+.avatar {
+    width: 35px;
+    height: 35px;
+    background-color:red;
+    border-radius: 5px;
+}
+
+.menu-itens li{
+    margin-right: 10px;
+    list-style: none;
+    align-self: center;
+}
+
+.menu-user {
+    align-items: center;
+}
+
+.lists {
+    margin-top: -200px;
+}
+
+.movie-box {
+    padding: 10px 20px;
+}

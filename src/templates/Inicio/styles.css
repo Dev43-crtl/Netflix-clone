@@ -1,0 +1,28 @@
+.Inicio {
+    background-color:#141414;
+    height:100vh;
+}
+.avatars {
+    margin: 0 auto;
+    max-width: 500px;
+    margin-top: 150px;
+}
+
+.profile-button {
+    display: block;
+    margin: 2em 0 1em 0;
+    font-size: 1.2vw;
+    border: 1px solid grey;
+    color: grey;
+    padding: 0.5em 1.5em;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    background-color:red;
+    border-radius: 5px;
+}

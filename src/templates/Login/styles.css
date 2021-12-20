@@ -1,0 +1,71 @@
+.form-box {
+    margin: 0 auto;
+    max-width: 450px;
+    padding: 50px 70px;
+    background-color: rgba(0,0,0,.75);
+    color: white;
+    margin-bottom: 90px;
+}
+
+.form-box form h2 {
+    margin-bottom: 30px;
+}
+
+.form-box form input {
+    background-color: #333;
+    border: 0;
+    margin-bottom: 15px;
+}
+
+.form-floating input:focus {
+    background-color: #333
+}
+
+.form-floating label {
+    padding: 0.8rem 0.75rem;
+}
+
+.form-box form input[type="text"]{
+    height: 50px;
+}
+
+.form-box form button {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #e50914;
+    border: 0;
+    color: white;
+    margin: 20px 0;
+}
+
+.login-configs .checkboxs{
+    font-size: 13px;
+    margin-right: 10px; 
+    align-items: center;
+    color: #b3b3b3;
+    margin-bottom: 30px;
+}
+
+.checkboxs:first-child {
+    flex-grow: 1;
+}
+
+.checkboxs input[type="checkbox"] {
+    background-color:#b3b3b3;
+}
+
+.others {
+    color: #b3b3b3;
+    font-size: 14px;
+}
+
+.others p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.others-info p {
+    margin-bottom: 70px;
+}
